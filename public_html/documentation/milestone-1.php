@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>data-design</title>
+		<title>my-pwp-tanisha</title>
 	</head>
 	<body>
 		<h1>Persona</h1>
