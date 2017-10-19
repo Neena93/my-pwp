@@ -5,7 +5,7 @@
 		<title>my-pwp-tanisha</title>
 	</head>
 	<body>
-		<h1>Purpose, Audience & Goal</h1>
+		<h1>Purpose, Audience and Goal</h1>
 		<ul>
 			<li><strong>Purpose:</strong> I am using this project to promote myself as a software developer to potential employers.</li>
 			<br>
@@ -29,9 +29,8 @@
 			<br>
 			<li><strong>Goals:</strong> Felicitas plans to meet the 2 week dead line to hire 3 backend developers so her understaffed KittyCodeABQ can expand. </li>
 			<br>
-			<li><strong>User Story:</strong> Felicitas with her busy schedule needs to be able to quickly determine if a candidate is qualified for a backend development job.  </li>
 		</ul>
 		<h3>User Story</h3>
-		<p></p>
+		<p><strong>User Story:</strong> Felicitas with her busy schedule needs to be able to quickly determine if a candidate is qualified for a backend development job.</p>
 	</body>
 </html>
