@@ -11,10 +11,10 @@
 			<br>
 			<li><strong>Audience:</strong> This project aims to target collaborators, start ups, potential employers or even someone who is interested in having a website created.</li>
 			<br>
-			<li><strong>Goal:</strong> This project will target potential employers with the primary goal of displaying my correct skill level and means to contact me via email, social media platorms. It will also display my GitHub account in case an potential employer is intersted in checking my recent commits.</strong></li>
+			<li><strong>Goal:</strong> This project will target potential employers with the primary goal of displaying my current skill level and means to contact me via email and social media platforms. It will also display my GitHub account in case an potential employer is intersted in checking my recent commits.</strong></li>
 		</ul>
 		<h3>Persona</h3>
-		<img src ="/images/issa-rae.jpg" width="450" height="400" alt="">
+		<img src ="images/issa-rae-edit.jpg" width="400" height="400" alt="Issa Rae">
 		<ul>
 			<li><strong>Name:</strong> Felicitas Bradley</li>
 			<li><strong>Age:</strong> 37</li>
