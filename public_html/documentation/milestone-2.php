@@ -13,14 +13,11 @@
 		<p><strong>Contact:</strong>This section will include button links for users to directly follow me on my social media as well as a input option for comments and inquires.</p>
 		<h1><strong>Desktop and Mobile Wire frame</strong></h1>
 		<div class="container">
-			<div class="column">
 				<h2>Desktop</h2>
-				<img src="" alt="Wireframe for desktop"/>
+				<img src="images/desktop-pwp.png" alt="Wireframe for desktop"/>
 			</div>
-			<div class="column">
 				<h2>Mobile</h2>
 				<img src="images/mobile-pwp.png" alt="mobile wire frame"/>
-			</div>
 		</div>
 		</body>
 </html>
