@@ -15,6 +15,7 @@ Overall really nice work, and your code is looking good too. There were some min
 - Your Issa Rae image isn't loading because the path is incorrect - just remove the leading "/" so it looks like this: `src="images/issa-rae.jpg"`. Remember to always set some relevant content in the `alt` attribute as well.
 
 
+## Milestone 2a
 ### Feedback 
 
 You have a few small errors in your Html if you are intrested  here is the link to [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbootcamp-coders.cnm.edu%2F~tpurnell%2Fmy-pwp-tanisha%2Fpublic_html%2Fdocumentation%2Fmilestone-2.php). I can also not find your wireframes in the github repo. 
