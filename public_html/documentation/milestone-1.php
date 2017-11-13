@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="US-en">
 	<head>
 		<meta charset="utf-8">
 		<title>my-pwp-tanisha</title>
@@ -10,7 +10,7 @@
 			<br>
 			<p><strong>Audience:</strong> This project aims to target collaborators, start ups, potential employers or even someone who is interested in having a website created.</p>
 			<br>
-			<p><strong>Goal:</strong> This project will target potential employers with the primary goal of displaying my current skill level and means to contact me via email and social media platforms. It will also display my GitHub account in case an potential employer is intersted in checking my recent commits.</strong></p>
+			<p><strong>Goal:</strong> This project will target potential employers with the primary goal of displaying my current skill level and means to contact me via email and social media platforms. It will also display my GitHub account in case an potential employer is intersted in checking my recent commits.</p>
 		<h3>Persona</h3>
 		<img src ="images/issa-rae-edit.jpg" width="400" height="400" alt="Issa Rae">
 			<p><strong>Name:</strong> Felicitas Bradley</p>
@@ -24,7 +24,7 @@
 			<br>
 			<p><strong>Frustrations and Needs:</strong> Felicitas has a deadline of 2 weeks to hire 3 backend developers with at least 3-4 years experience or someone with less years experience but are able to prove they have comparable knowlegde of the job. She is also interested in individuals who have excellent soft skills and are able to adapt and learn.</p>
 			<br>
-			<p><strong>Goals:</strong> Felicitas plans to meet the 2 week dead line to hire 3 backend developers so her understaffed KittyCodeABQ can expand. </>
+			<p><strong>Goals:</strong> Felicitas plans to meet the 2 week dead line to hire 3 backend developers so her understaffed KittyCodeABQ can expand. </p>
 			<br>
 		<h3>User Story</h3>
 		<p><strong>User Story:</strong> Felicitas with her busy schedule needs to be able to quickly determine if a candidate is qualified for a backend development job.</p>
