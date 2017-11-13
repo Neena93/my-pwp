@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="US-en">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>my-pwp-tanisha</title>

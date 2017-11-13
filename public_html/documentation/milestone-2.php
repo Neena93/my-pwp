@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="US-en">
+<html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Milestone 2</title>>
+		<title>Milestone 2</title>
 	</head>
 	<body>
 		<h1>Content Strategy</h1>
