@@ -61,7 +61,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
-						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="/images" alt="">
+						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="images/hiking.jpg" alt="">
 					</div>
 					<div class="col-lg-9 text-justify">
 						<p></p>
