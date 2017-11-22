@@ -47,3 +47,13 @@ The inconsistencies I see between the wireframes can negatively impact your deve
 * The complexity of even small design ideas such as this kind of navigation is why it's important to clarify in the content strategy. That way we can determine project requirements and a development plan. I'm still not entirely sure if what I mentioned above is what you intended. If you have any additional questions - please let us know.
 
 ### Grade Tier II
+
+## Milestone 2b Feedback
+Nice work so far. Your Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Here are some of the notes from our meeting:
+- move your js files to the `<head>`
+- make sure slideshow images are sized consistently, and appropriately for web (same dimensions/aspect ratio/orientation, aim for < 600kb)
+- Add anchor links to navbar using ids.
+- OK to remove some of the portfolio panels if you don't have content prepared for them
+- directory structure: move `/styles` inside public_html
+- delete index.php at the root (bootstrap challenge)
+- Think about using a google font for headings to add some style easily.
