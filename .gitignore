@@ -1,3 +1,7 @@
 .DS_Store
 /.idea
 /vendor
+
+# ignore sensitive email data
+**/php/mail-config.php
+
