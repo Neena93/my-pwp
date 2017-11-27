@@ -25,16 +25,16 @@
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/jquery-validate.js"></script>
 
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
 		<!--Bootstrap Stylesheet-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
 		<!--CSS Stylesheet-->
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />
-			<!--Google ReCAPTCHA-->
+
+		<!--Google ReCAPTCHA-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
+
 	<body class="pb-5">
 		<header>
 			<div class="container">
@@ -155,29 +155,29 @@
 		</section>
 
 		<!--Contact form-->
-		<form id="contact-form" class="contact mb-5 container">
+		<form id="contact-form" action="php/mailer.php" method="post" novalidate class="contact mb-5 container">
 			<div class="form-group">
 				<div class="col-md-6 mx-auto">
 					<h2 class="mb-4 text-center">Contact</h2>
 
 					<div class="form-group">
 						<label for="name">Name <span class="text-danger">*</span></label>
-						<input type="text" class="form-control" id="name" name="Name" placeholder="Name" aria-describedby="blah">
+						<input type="text" class="form-control" id="name" name="name" placeholder="name" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
 						<label for="name">Email <span class="text-danger">*</span></label>
-						<input type="text" class="form-control" id="Email"  name="Email" placeholder="Email" aria-describedby="blah">
+						<input type="text" class="form-control" id="email"  name="email" placeholder="email" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
 						<label for="name">Subject <span class="text-danger">*</span></label>
-						<input type="text" class="form-control" id="Subject" name="Subject" placeholder="Subject" aria-describedby="blah">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="subject" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
 						<label for="name">Message <span class="text-danger">*</span></label>
-						<textarea class="form-control" id="Message" name="Message" placeholder="Message" rows="5"></textarea>
+						<textarea class="form-control" id="message" name="message" placeholder="message" rows="5"></textarea>
 					</div>
 					<!-- reCAPTCHA -->
 					<div class="g-recaptcha" data-sitekey="6LdTlToUAAAAAPeOLHT9V155SLxZHo13ymtzroNe"></div>

@@ -27,7 +27,7 @@ $(document).ready(function(){
 		rules: {
 			name: {
 				required: true,
-				maxlength: 15
+				maxlength: 25
 			},
 			email: {
 				email: true,
@@ -47,11 +47,13 @@ $(document).ready(function(){
 		// error messages to display to the end user when rules above don't pass
 		messages: {
 			name: {
-				required: "Please enter your name."
+				required: "Please enter your name.",
+				maxlength: "Your name is too long."
 			},
 			email: {
 				email: "Please enter a valid email address.",
-				required: "Please enter a valid email address."
+				required: "Please enter a valid email address.",
+				maxlength: "Your email is too long."
 			},
 			subject: {
 				required:"A subject is required.",
