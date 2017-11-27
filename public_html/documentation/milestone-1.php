@@ -12,7 +12,7 @@
 			<br>
 			<p><strong>Goal:</strong> This project will target potential employers with the primary goal of displaying my current skill level and means to contact me via email and social media platforms. It will also display my GitHub account in case an potential employer is intersted in checking my recent commits.</p>
 		<h3>Persona</h3>
-		<img src ="images/issa-rae-edit.jpg" width="400" height="400" alt="Issa Rae">
+		<img src ="../images/issa-rae-edit.jpg" width="400" height="400" alt="Issa Rae">
 			<p><strong>Name:</strong> Felicitas Bradley</p>
 			<p><strong>Age:</strong> 37</p>
 			<br>

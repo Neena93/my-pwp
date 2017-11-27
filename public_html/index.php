@@ -7,17 +7,24 @@
 		<!--Responsive meta tag-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<!--jQuery, Popper.js and Bootstrap Javascript-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 		<!--Bootstrap Stylesheet-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<!--CSS Stylesheet-->
-		<link rel="stylesheet" type="text/css" href="/styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+			<!--Google ReCAPTCHA-->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body class="pb-5">
 		<header>
 			<div class="container">
 
 				<!--Navigation bar-->
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light bg-white">
 					<a class="navbar-brand" href="#"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -45,23 +52,33 @@
 		</header>
 
 		<!--Jumbotron-->
-		<section class="jumbotron bg-dark mb-0">
-			<div class="container">
-				<div class="jumbotron">
-					<div class="text-center">
-					<h1>Tanisha Purnell</h1>
-						<p>Full stack Web Developer</p>
-					<p class="lead"></p>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="images/hiking.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="..." alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="..." alt="Third slide">
 				</div>
 			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-		</section>
 
 		<section class="bg-secondary text-white py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
-						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="hiking.jpg" alt="">
+						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="images/hiking.jpg" alt="hiking">
 					</div>
 					<div class="col-lg-9 text-justify">
 						<h1>About Me</h1>
@@ -120,16 +137,31 @@
 				</div>
 			</div>
 		</section>
-
+			<!--Contact form-->
+		<div id="contact" class="contact mb-5 container">
+			<div class="row">
+				<div class="col-md-6 mx-auto">
+					<h2 class="mb-4 text-center">Contact</h2>
+					<div class="input-group mb-2">
+						<input type="text" class="form-control" placeholder="Name" aria-describedby="blah">
+					</div>
+					<div class="input-group mb-2">
+						<input type="text" class="form-control" placeholder="Email" aria-describedby="blah">
+					</div>
+					<div class="input-group mb-2">
+						<input type="text" class="form-control" placeholder="Subject" aria-describedby="blah">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" id="textarea" placeholder="Message" rows="5"></textarea>
+					</div>
+					<button type="button" class="btn btn-secondary btn-sm text-center">Submit</button>
+				</div>
+			</div>
+		</div>
 		<footer class="bg-dark fixed-bottom py-3">
 			<div class="container">
-				<div class="text-center lead text-white">Neena is my mufucking name hahaha bs </div>
+				<div class="text-center lead text-white"> </div>
 			</div>
 		</footer>
-
-		<!--jQuery, Popper.js and Bootstrap Javascript-->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</body>
 </html>

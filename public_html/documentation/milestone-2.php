@@ -14,9 +14,9 @@
 		<h1><strong>Desktop and Mobile Wire frame</strong></h1>
 			<div class="container">
 					<h2>Desktop</h2>
-					<img src="images/desktop-pwp.png" alt="Wireframe for desktop"/>
+					<img src="../images/desktop-pwp.png" alt="Wireframe for desktop"/>
 			</div>
 		<h2>Mobile</h2>
-			<img src="images/mobile-pwp.png" alt="mobile wire frame"/>
+			<img src="../images/mobile-pwp.png" alt="mobile wire frame"/>
 		</body>
 </html>
