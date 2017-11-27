@@ -5,3 +5,4 @@
 # ignore sensitive email data
 **/php/mail-config.php
 
+composer.lock

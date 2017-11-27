@@ -1,6 +1,10 @@
 <html lang="en">
 	<head>
 		<title>dev-tpurnell</title>
+
+	<!--FavIcon-->
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
 		<!--Required meta tag-->
 		<meta charset="UTF-8">
 
@@ -8,9 +12,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!--jQuery, Popper.js and Bootstrap Javascript-->
-		<script src="https://code.jquery.com/jquery-3.2.1./jquery.min.js.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -149,27 +153,50 @@
 				</div>
 			</div>
 		</section>
-			<!--Contact form-->
-		<div id="contact" class="contact mb-5 container">
-			<div class="row">
+
+		<!--Contact form-->
+		<form id="contact-form" class="contact mb-5 container">
+			<div class="form-group">
 				<div class="col-md-6 mx-auto">
 					<h2 class="mb-4 text-center">Contact</h2>
-					<div class="input-group mb-2">
-						<input type="text" class="form-control" placeholder="Name" aria-describedby="blah">
-					</div>
-					<div class="input-group mb-2">
-						<input type="text" class="form-control" placeholder="Email" aria-describedby="blah">
-					</div>
-					<div class="input-group mb-2">
-						<input type="text" class="form-control" placeholder="Subject" aria-describedby="blah">
-					</div>
+
 					<div class="form-group">
-						<textarea class="form-control" id="textarea" placeholder="Message" rows="5"></textarea>
+						<label for="name">Name <span class="text-danger">*</span></label>
+						<input type="text" class="form-control" id="name" name="Name" placeholder="Name" aria-describedby="blah">
 					</div>
-					<button type="button" class="btn btn-secondary btn-sm text-center">Submit</button>
+
+					<div class="form-group">
+						<label for="name">Email <span class="text-danger">*</span></label>
+						<input type="text" class="form-control" id="Email"  name="Email" placeholder="Email" aria-describedby="blah">
+					</div>
+
+					<div class="form-group">
+						<label for="name">Subject <span class="text-danger">*</span></label>
+						<input type="text" class="form-control" id="Subject" name="Subject" placeholder="Subject" aria-describedby="blah">
+					</div>
+
+					<div class="form-group">
+						<label for="name">Message <span class="text-danger">*</span></label>
+						<textarea class="form-control" id="Message" name="Message" placeholder="Message" rows="5"></textarea>
+					</div>
+					<!-- reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="6LdTlToUAAAAAPeOLHT9V155SLxZHo13ymtzroNe"></div>
+
+					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 				</div>
 			</div>
+		</form>
+
+
+
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
 		</div>
+
 		<footer class="bg-dark fixed-bottom py-3">
 			<div class="container">
 				<div class="text-center lead text-white"> </div>
