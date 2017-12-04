@@ -1,6 +1,8 @@
 <html lang="en">
 	<head>
 		<title>dev-tpurnell</title>
+		<!--Google Font-->
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 	<!--FavIcon-->
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
@@ -35,34 +37,35 @@
 
 		<!--Google ReCAPTCHA-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-	</head>
+		</head>
 	<!--This begins the body tag-->
 	<body class="pb-5">
 		<header>
 			<div class="max-width: 100%; max-height: 100%;container bg-secondary">
 				<!--Navigation bar-->
-				<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+				<nav class="fixed-top navbar navbar-expand-lg navbar-light bg-secondary">
 					<a class="navbar-brand" href="#"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<!---Navbar links-->
+					<div style="font-family: 'Lobster', cursive;">
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home</a>
+								<a class="nav-link" href="#Home">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">About Me</a>
+								<a class="nav-link" href="#AboutMe">About Me</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Portfolio</a>
+								<a class="nav-link" href="#Portfolio">Portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact Me</a>
+								<a class="nav-link" href="#ContactMe">Contact Me</a>
 							</li>
 						</ul>
+					</div>
 					</div>
 				</nav>
 			</div>
@@ -71,19 +74,21 @@
 		<!--Jumbotron-->
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="carousel-item active">
+				<div id="Home" class="carousel-item active">
 					<img class="d-block w-100" src="images/hiking.jpg" alt="First slide">
 				</div>
 			</div>
 
-		<section class="bg-secondary text-black py-5">
+		<section id="AboutMe" class="bg-secondary text-black py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
 						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="images/hiking.jpg" alt="hiking">
 					</div>
 					<div class="col-lg-9 text-justify">
+						<div style="font-family: 'Lobster', cursive;">
 						<h1>About Me</h1>
+						</div>
 						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
 						</p>
 						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
@@ -95,20 +100,28 @@
 
 				<div class="row">
 					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+					<div style="font-family: 'Lobster', cursive;">
 						<h3 class="text-center">Back-End</h3>
+					</div>
 						<ul class="d-block">
 							<li>mySQL</li>
 							<li>Object Oriented Programming</li>
 							<li>PHP</li>
 							<li>Terminal</li>
 							<li>Git</li>
+							<li>Composer Package Manager</li>
+							<li>Swift Mailer</li>
+							<li>Data Design</li>
+							<li>PHP Unit</li>
 						</ul>
 					</div>
 					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+			<div style="font-family: 'Lobster', cursive;">
 						<h3 class="text-center">Front-End</h3>
+			</div>
 						<ul>
 							<li>UI/UX</li>
-							<li>Bootstrap</li>
+							<li>Bootstrap 4</li>
 							<li>Javascript</li>
 							<li>Angular 5</li>
 							<li>HTML5</li>
@@ -116,7 +129,9 @@
 						</ul>
 					</div>
 					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+		<div style="font-family: 'Lobster', cursive;">
 						<h3 class="text-center">Security</h3>
+		</div>
 						<ul>
 							<li>Session Security</li>
 							<li>Encapsulation</li>
@@ -129,11 +144,13 @@
 			</section>
 
 		<section class="py-5">
-					<div class="col-sm-6 col-lg-3 my-3 mx-auto">
+					<div id="Portfolio" class="col-sm-6 col-lg-3 my-3 mx-auto">
 						<img class="img-fluid rounded-circle d-block mx-auto my-3" src="" alt="">
 						<div class="card text-center">
 							<div class="card-body">
+								<div style="font-family: 'Lobster', cursive;">
 								<h4 class="card-title">ABQ11</h4>
+								</div>
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 								<a href="#" class="btn btn-primary">Click Me!</a>
 							</div>
@@ -145,27 +162,37 @@
 
 		<!--Contact form-->
 		<form id="contact-form" action="php/mailer.php" method="post" novalidate class="contact mb-5 container">
-			<div class="form-group">
+			<div id="ContactMe" class="form-group">
 				<div class="col-md-6 mx-auto">
+					<div style="font-family: 'Lobster', cursive;">
 					<h2 class="mb-4 text-center">Contact</h2>
+					</div>
 
 					<div class="form-group">
+						<div style="font-family: 'Lobster', cursive;">
 						<label for="name">Name <span class="text-danger">*</span></label>
+						</div>
 						<input type="text" class="form-control" id="name" name="name" placeholder="name" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
+						<div style="font-family: 'Lobster', cursive;">
 						<label for="name">Email <span class="text-danger">*</span></label>
+						</div>
 						<input type="text" class="form-control" id="email"  name="email" placeholder="email" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
+						<div style="font-family: 'Lobster', cursive;">
 						<label for="name">Subject <span class="text-danger">*</span></label>
+						</div>
 						<input type="text" class="form-control" id="subject" name="subject" placeholder="subject" aria-describedby="blah">
 					</div>
 
 					<div class="form-group">
+						<div style="font-family: 'Lobster', cursive;">
 						<label for="name">Message <span class="text-danger">*</span></label>
+						</div>
 						<textarea class="form-control" id="message" name="message" placeholder="message" rows="5"></textarea>
 					</div>
 					<!-- reCAPTCHA -->
@@ -185,15 +212,13 @@
 		</div>
 		<!--Footer-->
 		<footer class="bg-dark fixed-bottom py-3">
-			<div class="container">
-				<a class="btn btn-default" href="https://www.linkedin.com/in/tanishapurnell/" aria-label="linkedin">
+				<a class="position-relative btn btn-default" href="https://www.linkedin.com/in/tanishapurnell/" aria-label="linkedin">
 				<i class="linkedin fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
 					</a>
-				</div>
+				<a class="position-sticky btn btn-default" href="https://github.com/Neena93" aria-label="github">
+					<i class="github fa fa-github-square fa-2x" aria-hidden="true"></i>
+				</a>
 			</div>
 		</footer>
-		<!--Jquery Javascript-->
-		<script src="/path/to/jquery-1.10.2.js"></script>
-		<script src="/path/to/bootstrap.min.js"></script>
 	</body>
 </html>
