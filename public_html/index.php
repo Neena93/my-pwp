@@ -3,10 +3,13 @@
 		<title>dev-tpurnell</title>
 
 	<!--FavIcon-->
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
 		<!--Required meta tag-->
 		<meta charset="UTF-8">
+
+		<!--Font Awesome-->
+		<script src="https://use.fontawesome.com/6a98f5f1db.js"></script>
 
 		<!--Responsive meta tag-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +24,6 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
-
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/jquery-validate.js"></script>
 
@@ -29,23 +31,22 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 		<!--CSS Stylesheet-->
-		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 
 		<!--Google ReCAPTCHA-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-	</head>
 
+	</head>
+	<!--This begins the body tag-->
 	<body class="pb-5">
 		<header>
-			<div class="container">
-
+			<div class="max-width: 100%; max-height: 100%;container bg-secondary">
 				<!--Navigation bar-->
-				<nav class="navbar navbar-expand-lg navbar-light bg-white">
+				<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
 					<a class="navbar-brand" href="#"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-
 					<!---Navbar links-->
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
@@ -75,7 +76,7 @@
 				</div>
 			</div>
 
-		<section class="bg-secondary text-white py-5">
+		<section class="bg-secondary text-black py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
@@ -92,46 +93,49 @@
 			</div>
 		</section>
 
-		<section class="py-5">
-			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-lg-3 my-3">
-						<img class="img-fluid rounded-circle d-block mx-auto my-3" src="" alt="">
-						<div class="card text-center">
-							<div class="card-body">
-								<h4 class="card-title">Card title</h4>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="btn btn-primary">click</a>
-							</div>
-						</div>
+					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+						<h3 class="text-center">Back-End</h3>
+						<ul class="d-block">
+							<li>mySQL</li>
+							<li>Object Oriented Programming</li>
+							<li>PHP</li>
+							<li>Terminal</li>
+							<li>Git</li>
+						</ul>
 					</div>
-					<div class="col-sm-6 col-lg-3 my-3">
-						<img class="img-fluid rounded-circle d-block mx-auto my-3" src="" alt="">
-						<div class="card text-center">
-							<div class="card-body">
-								<h4 class="card-title">Card title</h4>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="btn btn-primary">click</a>
-							</div>
-						</div>
+					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+						<h3 class="text-center">Front-End</h3>
+						<ul>
+							<li>UI/UX</li>
+							<li>Bootstrap</li>
+							<li>Javascript</li>
+							<li>Angular 5</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+						</ul>
 					</div>
-					<div class="col-sm-6 col-lg-3 my-3">
-						<img class="img-fluid rounded-circle d-block mx-auto my-3" src="" alt="">
-						<div class="card text-center">
-							<div class="card-body">
-								<h4 class="card-title">Card title</h4>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="btn btn-primary">click</a>
-							</div>
-						</div>
+					<div class="bg-secondary col-sm-6 col-lg-3 my-3 mx-auto"">
+						<h3 class="text-center">Security</h3>
+						<ul>
+							<li>Session Security</li>
+							<li>Encapsulation</li>
+							<li>Angular Form Validation</li>
+							<li>SQL Injection</li>
+							<li>Shell Injection</li>
+						</ul>
 					</div>
-					<div class="col-sm-6 col-lg-3 my-3">
+				</div>
+			</section>
+
+		<section class="py-5">
+					<div class="col-sm-6 col-lg-3 my-3 mx-auto">
 						<img class="img-fluid rounded-circle d-block mx-auto my-3" src="" alt="">
 						<div class="card text-center">
 							<div class="card-body">
-								<h4 class="card-title">Card title</h4>
+								<h4 class="card-title">ABQ11</h4>
 								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="btn btn-primary">click</a>
+								<a href="#" class="btn btn-primary">Click Me!</a>
 							</div>
 						</div>
 					</div>
@@ -173,19 +177,23 @@
 			</div>
 		</form>
 
-
-
 		<!--empty area for form error/success output-->
 		<div class="row">
 			<div class="col-xs-12">
 				<div id="output-area"></div>
 			</div>
 		</div>
-
+		<!--Footer-->
 		<footer class="bg-dark fixed-bottom py-3">
 			<div class="container">
-				<div class="text-center lead text-white"> </div>
+				<a class="btn btn-default" href="https://www.linkedin.com/in/tanishapurnell/" aria-label="linkedin">
+				<i class="linkedin fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
 			</div>
 		</footer>
+		<!--Jquery Javascript-->
+		<script src="/path/to/jquery-1.10.2.js"></script>
+		<script src="/path/to/bootstrap.min.js"></script>
 	</body>
 </html>
