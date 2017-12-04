@@ -83,7 +83,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3">
-						<img class="img-fluid mx-auto mx-lg-0 d-block mb-3" src="images/hiking.jpg" alt="hiking">
+						<img class="position-sticky rounded-circle img-fluid mx-auto mx-lg-0 d-block mb-3" src="images/charleston-sc.jpg" alt="hiking">
 					</div>
 					<div class="col-lg-9 text-justify">
 						<div style="font-family: 'Lobster', cursive;">
@@ -212,12 +212,15 @@
 		</div>
 		<!--Footer-->
 		<footer class="bg-dark fixed-bottom py-3">
+			<div class="row">
+				<div class="col-md-5 mx-auto text-center">
 				<a class="position-relative btn btn-default" href="https://www.linkedin.com/in/tanishapurnell/" aria-label="linkedin">
 				<i class="linkedin fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
 					</a>
 				<a class="position-sticky btn btn-default" href="https://github.com/Neena93" aria-label="github">
 					<i class="github fa fa-github-square fa-2x" aria-hidden="true"></i>
 				</a>
+			</div>
 			</div>
 		</footer>
 	</body>
