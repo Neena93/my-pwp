@@ -11,7 +11,11 @@
 	color: white;
 }
 
-{
+.font{
 	font-family: 'Lobster', cursive;
+}
+
+.label {
+	text-align: center;
 }
 
