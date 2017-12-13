@@ -60,7 +60,7 @@ Nice work so far. Your Milestone 2b passes at [Tier III](https://bootcamp-coders
 
 ## Milestone 3 Feedback
  
- Great work on Milestone 3. Your site is clean and looks like it was created by a professional with years of web design experince. Everything is laid out in the correct way and looks good at any break point. The mailer also works and the recaptcha is not shooting off the page. that being said you do have one small thing keeping you from a Tier IV a horizontal scroll bar. Horizontal scroll bars normally are a sign of slight contianer issues. In this case Im pretty sure your issue is related is being caused by the footer. If you need help fixing the issue feel free to contact me or Rochelle.
+  Great work on Milestone 3. Your site is clean and looks like it was created by a professional with years of web design experience. Everything is laid out in the correct way and looks good at any break point. The mailer also works and the recaptcha is not shooting off the page. that being said you do have one small thing keeping you from a Tier IV a horizontal scrollbar. Horizontal scrollbars are normally a sign of slight container issues. In this case, Im pretty sure your issue is being caused by the footer. If you need help fixing the issue feel free to contact me or Rochelle.
  
  ### Grade Tier III
  
